@@ -1,0 +1,313 @@
+/*p{
+	color:black;
+	font-size:20px;
+	font-family:asdf, arial, "Times new roman";
+	text-shadow:1px 1px 1px #35b8b0;
+}*/
+
+body{
+	
+	background-color:black;
+	
+}
+	
+*{
+	margin:0;
+	font-family:Helvetica, arial;
+	padding: 0 5px 0 5px;
+}
+
+header{
+	display:flex;
+	background-color:black;
+	padding:0 0 5% 0;
+	height:auto;
+}
+
+footer{
+	text-align:left;
+	margin-top:10%;
+	color:#ffffff;
+	padding:10px;
+	height:auto;
+	padding-left:10%;
+	
+}
+
+footer h1{
+	max-width:100%;
+    width: 100%;
+    height: auto;
+	margin:5% 0 2% 0;
+	color:#BDBBBB;
+	text-shadow:1px 1px 1px #ffffff;
+	font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif
+}
+#conteudo img{
+	width:5%;
+}
+
+#sobre{
+	max-width:100%;
+	text-align:center;
+    width: 100%;
+    height: auto;
+	float:right;
+	padding-top:15%;
+}
+
+#sobre a{ 
+	color:#BDBBBB;
+	text-decoration:none; 
+}
+
+#sobre a:hover{
+	text-decoration: none;
+	color: #AC7B47;
+}
+
+.content{	
+	font-size: 1.3vw;
+	padding:0%;
+	text-shadow:1px 1px 1px #ffffff;
+	font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+
+#recuo{
+	
+	font-size: 1.3vw;
+	text-align:justify;
+	max-width:100%;
+    width: 53%;
+    height: auto;
+	float:left;
+	padding-left:21%;
+	padding-top:10%;
+}
+
+#recuo a{
+	
+	text-decoration:none;
+}
+#recuo a:focus, a:hover {
+  text-decoration: none;
+  color: #AC7B47;
+}	
+
+#recuo p{
+	font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",
+	Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+	color:#888888;
+	
+	/*#BDBBBB;*/
+}
+
+#recuo h2{
+	text-align:center;
+	margin-bottom:7%;
+	color:#888888;
+	font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif;
+	
+}
+
+
+
+/*DIVS*/
+#principal{
+	clear:both;
+	background-image: url('cruz.jpg');
+	padding:22% 0 22% 0;
+	max-width:100%;
+    height: auto;
+	background-size: 100% 100%;
+	margin-top:10px;
+	margin-bottom:37%;
+}
+
+.cont{
+	text-align:center 10%;
+	max-width:100%;
+	height:auto;
+	font-family:medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 1.3vw ;
+	padding-top:0%;
+	background-color:#black;
+    
+}
+
+#caminho img{
+	float:left;
+	width:40%;
+	padding:12% 3% 2% 2%;
+}
+#conteudo-1 {
+	margin:0 0 0 0;
+	height:auto;
+	padding-top:2%;
+	background:#black;
+	background-size: 100% 100%;
+	
+}
+
+#conteudo-1 h3{
+	
+	margin:4% 0 0 0;
+	padding-top:2%;
+	background-color:white;
+}
+
+
+#conteudo-1 p{
+	background-color:white;
+	line-height:2em;
+	font-size: 1vw;
+	padding:2% 2.5% 0 1%;
+	font-family:courier,arial,helvetica;
+	text-align:justify;
+   
+}
+
+#conteudo-2 {
+	max-width:100%;
+	margin:5% 0 0 0;
+	height:auto;
+	background:#black;
+	background-size: 100% 100%;
+}  
+
+#conteudo-2 h3{
+	text-align:center;
+	margin:0% 0 0% 0;
+	padding:1%;
+	background-color:white;
+}
+#conteudo-2 img{
+	float:right;
+	width:40%;
+	padding:1% 1% 1% 2%;
+}
+#conteudo-2 p{
+	
+	background-color:white;
+	line-height:2em;
+	font-size: 1vw;
+	padding:1.5% 1.5% 2% 1.5%;
+	font-family:courier,arial,helvetica;
+	text-align:justify;
+    color: #111111;
+}
+
+.forms {
+	float:left;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.form-contact {
+  width: 100%;
+  font-family: "Arial", Times, serif;
+}
+
+.form-contact-input {
+  width: 100%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+}
+
+.form-contact-textarea {
+	float:right;
+  width: 100%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+  padding-top: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Arial", Times, serif;
+}
+
+.form-contact-button {
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  color: #fff;
+  height: 40px;
+  opacity: .8;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background:  #AC7B47;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #500707;
+  border-right: 1px solid #500707;
+  transition: 1s;
+}
+
+.form-contact-button:hover {
+  opacity: 1;
+}
+
+
+#logos img{
+	float:left;
+	width:10%;
+}
+
+#menu{
+    width: 50%;
+	float:right;
+	padding-top:2%;
+}
+
+#menu a{
+	font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",
+	Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+	font-size: 1.5vw;
+	padding:2% 6.5%  2% 6.5%;
+	text-decoration:none;
+	color: #BDBBBB;
+	text-shadow:1px 1px 1px black;
+	
+}
+
+#menu a:hover{
+	background-color:#A9A9A9;
+	
+	
+}
+
+/* class*/
+.container{
+	background-color:rgba(0, 0, 0, 0.9);
+	position: fixed;
+	right: 0;
+	margin-top: -2.5px;
+	width:100%;
+	margin:0 auto;
+	height: auto;
+}
+/*
+.efeito{
+	background-color:rgba(0, 0, 0, 0.5);
+	
+}*/
